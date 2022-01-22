@@ -2,7 +2,15 @@
 [Using pipelining to speedup Redis queries](https://redis.io/topics/pipelining)
 
 2、Socket原理
-
+enum SocketType
+    {
+        Stream = 1, // stream socket-->TCP
+        Dgram = 2, // datagram socket--->UDP
+        Raw = 3, // raw-protocol interface-->网络层
+        Rdm = 4, // reliably-delivered message
+        Seqpacket = 5, // sequenced packet stream
+        Unknown = -1, // Unknown socket type
+    }
 
 3、Socket实现
 
