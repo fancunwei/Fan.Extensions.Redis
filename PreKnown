@@ -1,1 +1,9 @@
+1、pipelining
 [Using pipelining to speedup Redis queries](https://redis.io/topics/pipelining)
+
+2、Socket原理
+
+
+3、Socket实现
+
+4、TcpClient
