@@ -1,7 +1,11 @@
-1、pipelining
+1、Redis:pipelining
 [Using pipelining to speedup Redis queries](https://redis.io/topics/pipelining)
 
-2、Socket原理
+2、Redis:常用命令
+
+3、Redis:锁
+
+4、Socket原理
 enum SocketType
     {
         Stream = 1, // stream socket-->TCP
@@ -12,6 +16,6 @@ enum SocketType
         Unknown = -1, // Unknown socket type
     }
 
-3、Socket实现
+5、Socket实现
 
-4、TcpClient
+6、TcpClient
